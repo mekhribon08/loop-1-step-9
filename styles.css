@@ -18,6 +18,7 @@ body {
   display: flex;
   margin-top: 80px;
   box-shadow: 0px 5px 20px grey;
+  border-radius: 5px;
 }
 
 .wrapper__inner {
