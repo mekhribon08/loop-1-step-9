@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffd865;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  margin-top: 80px;
+}
+
+.wrapper__inner {
+  width: 300px;
+  background: #dedede;
+  padding-left: 50px;
+  overflow-y: scroll;
+}
+
+.inner__card {
+  width: 220px;
+  background-color: #fff;
+  padding-left: 18px;
+  padding-top: 5px;
+  margin-top: 40px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+.inner__card:hover {
+  border: 3px solid rgb(102, 132, 185);
+}
+
+.inner__card p {
+  font-size: 16px;
+  color: grey;
+  line-height: 10px;
+}
+
+.inner__title h2 {
+  font-weight: 400;
+}
+
+.inner__title h2::after {
+  content: url(./img/plus.svg);
+  padding-left: 80px;
+}
+
+.inner__card--active {
+  border: 3px solid rgb(102, 132, 185);
+}
+
+.wrapper__content {
+  margin-left: 40px;
+  overflow-y: scroll;
+}
+
+.content__title {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+}
+
+.content__title h2 {
+  color: rgb(53, 50, 50);
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.content__title h1 {
+  padding-left: 135px;
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+.wrapper__content ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+/* .wrapper__content ul li::before {
+  content: url(./img/minus.svg);
+  border: 1px solid #dedede;
+  border-radius: 50%;
+  padding-right: 30px;
+} */
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper__content ul li h4 {
+  margin-left: auto;
+  color: rgb(135, 168, 235);
+}
+
+.wrapper__content ul li p {
+  color: grey;
+  font-size: 14px;
+  line-height: 4px;
+}
+
+.minus {
+  border: 1px solid #dedede;
+  height: 22px;
+  width: 22px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.plus {
+  margin-right: 20px;
+  border: 1px solid #dedede;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}
+
+.green-text {
+  color: rgba(16, 165, 16, 0.734);
+  margin-left: auto;
+  font-size: 16px;
+}
