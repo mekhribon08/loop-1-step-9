@@ -53,6 +53,7 @@ body {
 }
 
 .inner__title h2::after {
+  cursor: pointer;
   content: url(./img/plus.svg);
   padding-left: 80px;
 }
