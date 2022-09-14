@@ -19,13 +19,14 @@ body {
   margin-top: 80px;
   box-shadow: 0px 5px 20px grey;
   border-radius: 5px;
+  overflow: auto;
 }
 
 .wrapper__inner {
   width: 300px;
   background: #dedede;
   padding-left: 50px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .inner__card {
@@ -63,7 +64,7 @@ body {
 
 .wrapper__content {
   margin-left: 40px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .content__title {
